@@ -2,9 +2,15 @@
 
 **HUGO Series — Paper I**
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Python 3.13](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.7.1-ee4c2c.svg)](https://pytorch.org/)
+[![TDA](https://img.shields.io/badge/TDA-Persistent%20Homology-purple.svg)](https://gudhi.inria.fr/)
+[![HUGO Series](https://img.shields.io/badge/HUGO%20Series-Paper%20I-blueviolet.svg)](https://github.com/aprimora-ai/hugo-framework)
+[![Kappa Method](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18883639-blue.svg)](https://doi.org/10.5281/zenodo.18883639)
+
 **Author:** David Ohio | odavidohio@gmail.com
 **Version:** 1.0.0 — March 2026
-**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 **Repository:** https://github.com/aprimora-ai/hugo-framework
 
 > *This repository accompanies Paper I of the HUGO series.*
