@@ -1,0 +1,3364 @@
+{
+  "BASELINE": {
+    "config": "Equilibrio nominal",
+    "emotional_hypothesis": "SEEK_ANALOG",
+    "initial_H": [
+      0.6,
+      0.7,
+      0.5,
+      0.6,
+      0.675
+    ],
+    "tau_initial": 1.0,
+    "L_initial": 0.0,
+    "n_trials": 30,
+    "n_steps": 80,
+    "traj_agg": {
+      "convergencia": 0.50116,
+      "vel_ini": 0.0764,
+      "vel_fin": 0.07427,
+      "razao_vel": 1.6179,
+      "comprimento": 4.53603,
+      "amplitude": [
+        0.6324,
+        0.43,
+        0.22278,
+        0.21539,
+        0.56936
+      ],
+      "estabilidade": 0.3832,
+      "deriva": 0.77581,
+      "entropia_traj": 1.50341
+    },
+    "dominant_labels": {
+      "FEAR_ANALOG": 30
+    },
+    "trial_traj_metrics": [
+      {
+        "convergencia": 0.51788,
+        "vel_ini": 0.107846,
+        "vel_fin": 0.131417,
+        "razao_vel": 0.8206,
+        "comprimento": 4.94169,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.20134,
+          0.22519,
+          0.44468
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.76861,
+        "entropia_traj": 1.8457
+      },
+      {
+        "convergencia": 0.36575,
+        "vel_ini": 0.090255,
+        "vel_fin": 0.122044,
+        "razao_vel": 0.7395,
+        "comprimento": 4.4266,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.20359,
+          0.2147,
+          0.43756
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.77213,
+        "entropia_traj": 1.72595
+      },
+      {
+        "convergencia": 0.23159,
+        "vel_ini": 0.072828,
+        "vel_fin": 0.047131,
+        "razao_vel": 1.5452,
+        "comprimento": 5.44978,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.26811,
+          0.21464,
+          0.94024
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.77461,
+        "entropia_traj": 1.12702
+      },
+      {
+        "convergencia": 0.96138,
+        "vel_ini": 0.080428,
+        "vel_fin": 0.151021,
+        "razao_vel": 0.5326,
+        "comprimento": 4.45613,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.22633,
+          0.21455,
+          0.54883
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.76577,
+        "entropia_traj": 1.33883
+      },
+      {
+        "convergencia": 0.89267,
+        "vel_ini": 0.086018,
+        "vel_fin": 0.194765,
+        "razao_vel": 0.4417,
+        "comprimento": 7.36909,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.26295,
+          0.21455,
+          0.83721
+        ],
+        "estabilidade": 0.387,
+        "deriva": 0.76607,
+        "entropia_traj": 1.29866
+      },
+      {
+        "convergencia": 0.55431,
+        "vel_ini": 0.072237,
+        "vel_fin": 0.026103,
+        "razao_vel": 2.7674,
+        "comprimento": 4.934,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.24551,
+          0.21444,
+          0.44394
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.77379,
+        "entropia_traj": 1.66605
+      },
+      {
+        "convergencia": 0.73134,
+        "vel_ini": 0.069833,
+        "vel_fin": 0.098722,
+        "razao_vel": 0.7074,
+        "comprimento": 4.7272,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.21653,
+          0.22403,
+          0.50502
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.76962,
+        "entropia_traj": 1.54547
+      },
+      {
+        "convergencia": 0.08558,
+        "vel_ini": 0.070616,
+        "vel_fin": 0.040026,
+        "razao_vel": 1.7642,
+        "comprimento": 4.97331,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.24095,
+          0.21445,
+          0.88281
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.78546,
+        "entropia_traj": 1.20376
+      },
+      {
+        "convergencia": 0.13051,
+        "vel_ini": 0.072562,
+        "vel_fin": 0.040347,
+        "razao_vel": 1.7984,
+        "comprimento": 3.99425,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.19044,
+          0.21439,
+          0.44311
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.78259,
+        "entropia_traj": 1.54802
+      },
+      {
+        "convergencia": 0.6895,
+        "vel_ini": 0.070438,
+        "vel_fin": 0.080631,
+        "razao_vel": 0.8736,
+        "comprimento": 5.03046,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.23583,
+          0.21612,
+          0.43597
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.76846,
+        "entropia_traj": 1.68036
+      },
+      {
+        "convergencia": 4.27829,
+        "vel_ini": 0.073821,
+        "vel_fin": 0.286195,
+        "razao_vel": 0.2579,
+        "comprimento": 5.96995,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.26699,
+          0.21459,
+          1.23355
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.75402,
+        "entropia_traj": 0.78002
+      },
+      {
+        "convergencia": 0.19887,
+        "vel_ini": 0.073954,
+        "vel_fin": 0.047685,
+        "razao_vel": 1.5509,
+        "comprimento": 3.7705,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.23198,
+          0.21458,
+          0.45864
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.77597,
+        "entropia_traj": 1.65735
+      },
+      {
+        "convergencia": 0.1447,
+        "vel_ini": 0.075124,
+        "vel_fin": 0.031545,
+        "razao_vel": 2.3815,
+        "comprimento": 5.45096,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.20096,
+          0.21466,
+          0.96386
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.7827,
+        "entropia_traj": 0.9789
+      },
+      {
+        "convergencia": 0.15362,
+        "vel_ini": 0.073248,
+        "vel_fin": 0.019135,
+        "razao_vel": 3.828,
+        "comprimento": 3.82028,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.20824,
+          0.21464,
+          0.43232
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.78654,
+        "entropia_traj": 1.56343
+      },
+      {
+        "convergencia": 0.06521,
+        "vel_ini": 0.075561,
+        "vel_fin": 0.013471,
+        "razao_vel": 5.6093,
+        "comprimento": 3.33831,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.19745,
+          0.21465,
+          0.43882
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.78819,
+        "entropia_traj": 1.4594
+      },
+      {
+        "convergencia": 0.04541,
+        "vel_ini": 0.074686,
+        "vel_fin": 0.043531,
+        "razao_vel": 1.7157,
+        "comprimento": 3.63518,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.20707,
+          0.21458,
+          0.43966
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.78642,
+        "entropia_traj": 1.51656
+      },
+      {
+        "convergencia": 0.03094,
+        "vel_ini": 0.071666,
+        "vel_fin": 0.04385,
+        "razao_vel": 1.6343,
+        "comprimento": 3.47732,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.20679,
+          0.21459,
+          0.43715
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.79029,
+        "entropia_traj": 1.53856
+      },
+      {
+        "convergencia": 0.13031,
+        "vel_ini": 0.065606,
+        "vel_fin": 0.063907,
+        "razao_vel": 1.0266,
+        "comprimento": 3.13086,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.1929,
+          0.21468,
+          0.43592
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.78382,
+        "entropia_traj": 1.4683
+      },
+      {
+        "convergencia": 0.02061,
+        "vel_ini": 0.075052,
+        "vel_fin": 0.031638,
+        "razao_vel": 2.3722,
+        "comprimento": 2.87387,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.19863,
+          0.21449,
+          0.44371
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.78755,
+        "entropia_traj": 1.34231
+      },
+      {
+        "convergencia": 1.22235,
+        "vel_ini": 0.075639,
+        "vel_fin": 0.117051,
+        "razao_vel": 0.6462,
+        "comprimento": 4.54033,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.23812,
+          0.21457,
+          0.6526
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.7608,
+        "entropia_traj": 1.21974
+      },
+      {
+        "convergencia": 0.24568,
+        "vel_ini": 0.077477,
+        "vel_fin": 0.027853,
+        "razao_vel": 2.7817,
+        "comprimento": 3.9997,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.21722,
+          0.21444,
+          0.44725
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.77529,
+        "entropia_traj": 1.64153
+      },
+      {
+        "convergencia": 0.17703,
+        "vel_ini": 0.066603,
+        "vel_fin": 0.054049,
+        "razao_vel": 1.2323,
+        "comprimento": 4.09774,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.2172,
+          0.21466,
+          0.43445
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.77795,
+        "entropia_traj": 1.66708
+      },
+      {
+        "convergencia": 0.24882,
+        "vel_ini": 0.071733,
+        "vel_fin": 0.099115,
+        "razao_vel": 0.7237,
+        "comprimento": 4.60939,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.23873,
+          0.21448,
+          0.43923
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.77851,
+        "entropia_traj": 1.79378
+      },
+      {
+        "convergencia": 0.13712,
+        "vel_ini": 0.075033,
+        "vel_fin": 0.027862,
+        "razao_vel": 2.693,
+        "comprimento": 3.45983,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.2182,
+          0.21458,
+          0.44227
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.78549,
+        "entropia_traj": 1.57399
+      },
+      {
+        "convergencia": 0.71021,
+        "vel_ini": 0.103889,
+        "vel_fin": 0.101844,
+        "razao_vel": 1.0201,
+        "comprimento": 4.54145,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.23059,
+          0.21456,
+          0.56415
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.77145,
+        "entropia_traj": 1.72787
+      },
+      {
+        "convergencia": 0.08062,
+        "vel_ini": 0.067198,
+        "vel_fin": 0.039525,
+        "razao_vel": 1.7001,
+        "comprimento": 3.66017,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.21778,
+          0.21479,
+          0.43773
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.77635,
+        "entropia_traj": 1.51155
+      },
+      {
+        "convergencia": 0.41089,
+        "vel_ini": 0.067717,
+        "vel_fin": 0.076019,
+        "razao_vel": 0.8908,
+        "comprimento": 6.63469,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.24116,
+          0.21439,
+          1.13573
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.77191,
+        "entropia_traj": 1.08452
+      },
+      {
+        "convergencia": 0.44995,
+        "vel_ini": 0.078283,
+        "vel_fin": 0.050932,
+        "razao_vel": 1.537,
+        "comprimento": 4.65303,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.21242,
+          0.21457,
+          0.44317
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.76811,
+        "entropia_traj": 1.73906
+      },
+      {
+        "convergencia": 0.6429,
+        "vel_ini": 0.087557,
+        "vel_fin": 0.084678,
+        "razao_vel": 1.034,
+        "comprimento": 5.58893,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.23223,
+          0.21459,
+          0.43915
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.77113,
+        "entropia_traj": 2.05504
+      },
+      {
+        "convergencia": 0.48082,
+        "vel_ini": 0.068999,
+        "vel_fin": 0.036105,
+        "razao_vel": 1.9111,
+        "comprimento": 4.52594,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.21713,
+          0.21766,
+          0.44199
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.77476,
+        "entropia_traj": 1.80352
+      }
+    ]
+  },
+  "FEAR": {
+    "config": "Ameaca alta \u2014 H2=0.25",
+    "emotional_hypothesis": "FEAR_ANALOG",
+    "initial_H": [
+      0.6,
+      0.25,
+      0.5,
+      0.6,
+      0.675
+    ],
+    "tau_initial": 0.7692307692307692,
+    "L_initial": 0.075,
+    "n_trials": 30,
+    "n_steps": 80,
+    "traj_agg": {
+      "convergencia": 1.56227,
+      "vel_ini": 0.06224,
+      "vel_fin": 0.07427,
+      "razao_vel": 1.30786,
+      "comprimento": 4.65287,
+      "amplitude": [
+        0.4016,
+        0.35132,
+        0.22137,
+        0.09163,
+        0.56075
+      ],
+      "estabilidade": 0.38073,
+      "deriva": 0.46299,
+      "entropia_traj": 1.63403
+    },
+    "dominant_labels": {
+      "FEAR_ANALOG": 30
+    },
+    "trial_traj_metrics": [
+      {
+        "convergencia": 1.61141,
+        "vel_ini": 0.081147,
+        "vel_fin": 0.131417,
+        "razao_vel": 0.6175,
+        "comprimento": 4.71611,
+        "amplitude": [
+          0.4016,
+          0.3513,
+          0.17836,
+          0.08637,
+          0.38767
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.4575,
+        "entropia_traj": 1.93469
+      },
+      {
+        "convergencia": 1.19902,
+        "vel_ini": 0.072457,
+        "vel_fin": 0.122044,
+        "razao_vel": 0.5937,
+        "comprimento": 4.15905,
+        "amplitude": [
+          0.4016,
+          0.35137,
+          0.18593,
+          0.08602,
+          0.35504
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.46003,
+        "entropia_traj": 1.91191
+      },
+      {
+        "convergencia": 0.664,
+        "vel_ini": 0.067228,
+        "vel_fin": 0.047131,
+        "razao_vel": 1.4264,
+        "comprimento": 4.2696,
+        "amplitude": [
+          0.4016,
+          0.35138,
+          0.23428,
+          0.08763,
+          0.35708
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.46143,
+        "entropia_traj": 2.12219
+      },
+      {
+        "convergencia": 2.91472,
+        "vel_ini": 0.0611,
+        "vel_fin": 0.151021,
+        "razao_vel": 0.4046,
+        "comprimento": 4.324,
+        "amplitude": [
+          0.4016,
+          0.35136,
+          0.24704,
+          0.08629,
+          0.54883
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.45429,
+        "entropia_traj": 1.2905
+      },
+      {
+        "convergencia": 2.40541,
+        "vel_ini": 0.092897,
+        "vel_fin": 0.194765,
+        "razao_vel": 0.477,
+        "comprimento": 8.85665,
+        "amplitude": [
+          0.4016,
+          0.35113,
+          0.27706,
+          0.10201,
+          1.24282
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.45582,
+        "entropia_traj": 1.26004
+      },
+      {
+        "convergencia": 1.71608,
+        "vel_ini": 0.060549,
+        "vel_fin": 0.026103,
+        "razao_vel": 2.3196,
+        "comprimento": 5.67699,
+        "amplitude": [
+          0.4016,
+          0.35112,
+          0.24387,
+          0.08678,
+          0.63779
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.46099,
+        "entropia_traj": 1.66792
+      },
+      {
+        "convergencia": 2.46443,
+        "vel_ini": 0.053983,
+        "vel_fin": 0.098722,
+        "razao_vel": 0.5468,
+        "comprimento": 4.30638,
+        "amplitude": [
+          0.4016,
+          0.35121,
+          0.22232,
+          0.08622,
+          0.50502
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.4566,
+        "entropia_traj": 1.50528
+      },
+      {
+        "convergencia": 0.27786,
+        "vel_ini": 0.058334,
+        "vel_fin": 0.040026,
+        "razao_vel": 1.4574,
+        "comprimento": 5.69498,
+        "amplitude": [
+          0.4016,
+          0.35142,
+          0.2603,
+          0.08748,
+          1.31769
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.47098,
+        "entropia_traj": 0.80957
+      },
+      {
+        "convergencia": 0.40985,
+        "vel_ini": 0.05805,
+        "vel_fin": 0.040347,
+        "razao_vel": 1.4388,
+        "comprimento": 3.85238,
+        "amplitude": [
+          0.4016,
+          0.35131,
+          0.1856,
+          0.08624,
+          0.3626
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.469,
+        "entropia_traj": 1.69935
+      },
+      {
+        "convergencia": 2.17227,
+        "vel_ini": 0.059163,
+        "vel_fin": 0.080631,
+        "razao_vel": 0.7338,
+        "comprimento": 5.12041,
+        "amplitude": [
+          0.4016,
+          0.35143,
+          0.23695,
+          0.08631,
+          0.64948
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.4559,
+        "entropia_traj": 1.49211
+      },
+      {
+        "convergencia": 13.76285,
+        "vel_ini": 0.059193,
+        "vel_fin": 0.286195,
+        "razao_vel": 0.2068,
+        "comprimento": 6.79289,
+        "amplitude": [
+          0.4016,
+          0.35129,
+          0.24845,
+          0.09741,
+          1.23355
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.44758,
+        "entropia_traj": 0.9292
+      },
+      {
+        "convergencia": 0.57643,
+        "vel_ini": 0.078636,
+        "vel_fin": 0.047685,
+        "razao_vel": 1.6491,
+        "comprimento": 3.88845,
+        "amplitude": [
+          0.4016,
+          0.35125,
+          0.24994,
+          0.08617,
+          0.31174
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.46282,
+        "entropia_traj": 1.9234
+      },
+      {
+        "convergencia": 0.46321,
+        "vel_ini": 0.058983,
+        "vel_fin": 0.031545,
+        "razao_vel": 1.8698,
+        "comprimento": 5.69213,
+        "amplitude": [
+          0.4016,
+          0.35155,
+          0.21359,
+          0.08615,
+          0.96386
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.46848,
+        "entropia_traj": 1.0661
+      },
+      {
+        "convergencia": 0.49088,
+        "vel_ini": 0.055699,
+        "vel_fin": 0.019135,
+        "razao_vel": 2.9109,
+        "comprimento": 4.20206,
+        "amplitude": [
+          0.4016,
+          0.35131,
+          0.24636,
+          0.08631,
+          0.55532
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.47237,
+        "entropia_traj": 1.49498
+      },
+      {
+        "convergencia": 0.21285,
+        "vel_ini": 0.061936,
+        "vel_fin": 0.013471,
+        "razao_vel": 4.5978,
+        "comprimento": 3.32429,
+        "amplitude": [
+          0.4016,
+          0.35135,
+          0.20554,
+          0.08617,
+          0.29763
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.47401,
+        "entropia_traj": 1.78214
+      },
+      {
+        "convergencia": 0.15381,
+        "vel_ini": 0.05754,
+        "vel_fin": 0.043531,
+        "razao_vel": 1.3218,
+        "comprimento": 3.50991,
+        "amplitude": [
+          0.4016,
+          0.3514,
+          0.17249,
+          0.0864,
+          0.31617
+        ],
+        "estabilidade": 0.379,
+        "deriva": 0.47253,
+        "entropia_traj": 1.78917
+      },
+      {
+        "convergencia": 0.09965,
+        "vel_ini": 0.057169,
+        "vel_fin": 0.04385,
+        "razao_vel": 1.3037,
+        "comprimento": 4.13722,
+        "amplitude": [
+          0.4016,
+          0.35136,
+          0.18803,
+          0.08636,
+          0.45263
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.47579,
+        "entropia_traj": 1.99536
+      },
+      {
+        "convergencia": 0.42755,
+        "vel_ini": 0.049205,
+        "vel_fin": 0.063907,
+        "razao_vel": 0.7699,
+        "comprimento": 3.03493,
+        "amplitude": [
+          0.4016,
+          0.35134,
+          0.20085,
+          0.08631,
+          0.29812
+        ],
+        "estabilidade": 0.379,
+        "deriva": 0.46977,
+        "entropia_traj": 1.69733
+      },
+      {
+        "convergencia": 0.06591,
+        "vel_ini": 0.058932,
+        "vel_fin": 0.031638,
+        "razao_vel": 1.8627,
+        "comprimento": 2.75959,
+        "amplitude": [
+          0.4016,
+          0.3512,
+          0.18112,
+          0.0865,
+          0.3031
+        ],
+        "estabilidade": 0.379,
+        "deriva": 0.47348,
+        "entropia_traj": 1.55487
+      },
+      {
+        "convergencia": 3.58046,
+        "vel_ini": 0.05989,
+        "vel_fin": 0.117051,
+        "razao_vel": 0.5117,
+        "comprimento": 4.74806,
+        "amplitude": [
+          0.4016,
+          0.3513,
+          0.2408,
+          0.08675,
+          0.6526
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.45044,
+        "entropia_traj": 1.36176
+      },
+      {
+        "convergencia": 0.74867,
+        "vel_ini": 0.062737,
+        "vel_fin": 0.027853,
+        "razao_vel": 2.2525,
+        "comprimento": 3.96505,
+        "amplitude": [
+          0.4016,
+          0.35128,
+          0.22894,
+          0.08622,
+          0.30017
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.46407,
+        "entropia_traj": 1.81007
+      },
+      {
+        "convergencia": 0.57902,
+        "vel_ini": 0.049481,
+        "vel_fin": 0.054049,
+        "razao_vel": 0.9155,
+        "comprimento": 4.11074,
+        "amplitude": [
+          0.4016,
+          0.35128,
+          0.20598,
+          0.08631,
+          0.3008
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.46362,
+        "entropia_traj": 1.95241
+      },
+      {
+        "convergencia": 0.77806,
+        "vel_ini": 0.059884,
+        "vel_fin": 0.099115,
+        "razao_vel": 0.6042,
+        "comprimento": 4.83197,
+        "amplitude": [
+          0.4016,
+          0.35132,
+          0.23404,
+          0.08639,
+          0.4825
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.46471,
+        "entropia_traj": 1.86557
+      },
+      {
+        "convergencia": 0.43532,
+        "vel_ini": 0.059955,
+        "vel_fin": 0.027862,
+        "razao_vel": 2.1518,
+        "comprimento": 3.3159,
+        "amplitude": [
+          0.4016,
+          0.35153,
+          0.19702,
+          0.08638,
+          0.29232
+        ],
+        "estabilidade": 0.378,
+        "deriva": 0.47157,
+        "entropia_traj": 1.79469
+      },
+      {
+        "convergencia": 2.16246,
+        "vel_ini": 0.084621,
+        "vel_fin": 0.101844,
+        "razao_vel": 0.8309,
+        "comprimento": 4.52657,
+        "amplitude": [
+          0.4016,
+          0.35135,
+          0.22996,
+          0.08641,
+          0.56415
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.4586,
+        "entropia_traj": 1.83039
+      },
+      {
+        "convergencia": 0.24175,
+        "vel_ini": 0.049843,
+        "vel_fin": 0.039525,
+        "razao_vel": 1.2611,
+        "comprimento": 3.47418,
+        "amplitude": [
+          0.4016,
+          0.35137,
+          0.22788,
+          0.08653,
+          0.2984
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.46373,
+        "entropia_traj": 1.72243
+      },
+      {
+        "convergencia": 1.34247,
+        "vel_ini": 0.052908,
+        "vel_fin": 0.076019,
+        "razao_vel": 0.696,
+        "comprimento": 7.44875,
+        "amplitude": [
+          0.4016,
+          0.35122,
+          0.24711,
+          0.21535,
+          1.6459
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.45805,
+        "entropia_traj": 0.8087
+      },
+      {
+        "convergencia": 1.34251,
+        "vel_ini": 0.067473,
+        "vel_fin": 0.050932,
+        "razao_vel": 1.3248,
+        "comprimento": 4.60425,
+        "amplitude": [
+          0.4016,
+          0.35125,
+          0.22179,
+          0.08643,
+          0.39371
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.45703,
+        "entropia_traj": 1.92887
+      },
+      {
+        "convergencia": 2.01302,
+        "vel_ini": 0.069123,
+        "vel_fin": 0.084678,
+        "razao_vel": 0.8163,
+        "comprimento": 5.68398,
+        "amplitude": [
+          0.4016,
+          0.35123,
+          0.24072,
+          0.08661,
+          0.36468
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.458,
+        "entropia_traj": 2.03732
+      },
+      {
+        "convergencia": 1.55604,
+        "vel_ini": 0.049203,
+        "vel_fin": 0.036105,
+        "razao_vel": 1.3628,
+        "comprimento": 4.55862,
+        "amplitude": [
+          0.4016,
+          0.35128,
+          0.18874,
+          0.08646,
+          0.43124
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.4604,
+        "entropia_traj": 1.98243
+      }
+    ]
+  },
+  "CARE": {
+    "config": "Estado afiliativo \u2014 H4 elevado",
+    "emotional_hypothesis": "CARE_ANALOG",
+    "initial_H": [
+      0.65,
+      0.72,
+      0.48,
+      0.88,
+      0.68
+    ],
+    "tau_initial": 0.9541984732824427,
+    "L_initial": 0.011999999999999993,
+    "n_trials": 30,
+    "n_steps": 80,
+    "traj_agg": {
+      "convergencia": 1.62567,
+      "vel_ini": 0.07461,
+      "vel_fin": 0.07427,
+      "razao_vel": 1.57788,
+      "comprimento": 4.32208,
+      "amplitude": [
+        0.6324,
+        0.43,
+        0.21058,
+        0.0562,
+        0.47134
+      ],
+      "estabilidade": 0.3831,
+      "deriva": 0.76742,
+      "entropia_traj": 1.64742
+    },
+    "dominant_labels": {
+      "FEAR_ANALOG": 30
+    },
+    "trial_traj_metrics": [
+      {
+        "convergencia": 1.42127,
+        "vel_ini": 0.097634,
+        "vel_fin": 0.131417,
+        "razao_vel": 0.7429,
+        "comprimento": 4.93,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.20234,
+          0.06252,
+          0.38767
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.76066,
+        "entropia_traj": 2.0016
+      },
+      {
+        "convergencia": 1.15948,
+        "vel_ini": 0.090546,
+        "vel_fin": 0.122044,
+        "razao_vel": 0.7419,
+        "comprimento": 4.3996,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.19399,
+          0.05347,
+          0.36978
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.7639,
+        "entropia_traj": 1.81599
+      },
+      {
+        "convergencia": 0.76506,
+        "vel_ini": 0.074121,
+        "vel_fin": 0.047131,
+        "razao_vel": 1.5726,
+        "comprimento": 3.82845,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.20981,
+          0.05485,
+          0.37059
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.76694,
+        "entropia_traj": 1.79007
+      },
+      {
+        "convergencia": 3.17281,
+        "vel_ini": 0.077034,
+        "vel_fin": 0.151021,
+        "razao_vel": 0.5101,
+        "comprimento": 4.38893,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.24153,
+          0.05404,
+          0.54883
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.75819,
+        "entropia_traj": 1.40537
+      },
+      {
+        "convergencia": 2.76761,
+        "vel_ini": 0.086836,
+        "vel_fin": 0.194765,
+        "razao_vel": 0.4458,
+        "comprimento": 6.48919,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.21852,
+          0.05455,
+          0.56335
+        ],
+        "estabilidade": 0.386,
+        "deriva": 0.75831,
+        "entropia_traj": 1.64956
+      },
+      {
+        "convergencia": 1.95103,
+        "vel_ini": 0.067134,
+        "vel_fin": 0.026103,
+        "razao_vel": 2.5719,
+        "comprimento": 4.59105,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.24569,
+          0.05466,
+          0.42357
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.76674,
+        "entropia_traj": 1.67419
+      },
+      {
+        "convergencia": 2.45041,
+        "vel_ini": 0.070055,
+        "vel_fin": 0.098722,
+        "razao_vel": 0.7096,
+        "comprimento": 4.92524,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.24413,
+          0.06264,
+          0.50502
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.76174,
+        "entropia_traj": 1.60218
+      },
+      {
+        "convergencia": 0.30846,
+        "vel_ini": 0.065651,
+        "vel_fin": 0.040026,
+        "razao_vel": 1.6402,
+        "comprimento": 4.81396,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.23928,
+          0.05431,
+          0.85835
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.77517,
+        "entropia_traj": 1.09794
+      },
+      {
+        "convergencia": 0.43114,
+        "vel_ini": 0.074577,
+        "vel_fin": 0.040347,
+        "razao_vel": 1.8484,
+        "comprimento": 4.13205,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.19186,
+          0.05478,
+          0.37821
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.77343,
+        "entropia_traj": 1.73837
+      },
+      {
+        "convergencia": 2.00452,
+        "vel_ini": 0.070466,
+        "vel_fin": 0.080631,
+        "razao_vel": 0.8739,
+        "comprimento": 4.68414,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.22717,
+          0.05389,
+          0.37558
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.76132,
+        "entropia_traj": 1.84207
+      },
+      {
+        "convergencia": 13.96884,
+        "vel_ini": 0.073703,
+        "vel_fin": 0.286195,
+        "razao_vel": 0.2575,
+        "comprimento": 5.6596,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.24928,
+          0.07834,
+          1.23355
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.74737,
+        "entropia_traj": 0.73154
+      },
+      {
+        "convergencia": 0.7021,
+        "vel_ini": 0.081769,
+        "vel_fin": 0.047685,
+        "razao_vel": 1.7148,
+        "comprimento": 3.9584,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.21942,
+          0.05423,
+          0.3689
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.76826,
+        "entropia_traj": 1.76874
+      },
+      {
+        "convergencia": 0.53089,
+        "vel_ini": 0.072196,
+        "vel_fin": 0.031545,
+        "razao_vel": 2.2887,
+        "comprimento": 4.67711,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.21857,
+          0.05422,
+          0.65495
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.77367,
+        "entropia_traj": 1.33984
+      },
+      {
+        "convergencia": 0.58041,
+        "vel_ini": 0.065558,
+        "vel_fin": 0.019135,
+        "razao_vel": 3.4261,
+        "comprimento": 3.58067,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.18556,
+          0.05395,
+          0.37593
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.77698,
+        "entropia_traj": 1.70648
+      },
+      {
+        "convergencia": 0.35013,
+        "vel_ini": 0.076614,
+        "vel_fin": 0.013471,
+        "razao_vel": 5.6874,
+        "comprimento": 3.48971,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.17464,
+          0.05583,
+          0.37047
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.77917,
+        "entropia_traj": 1.73372
+      },
+      {
+        "convergencia": 0.16596,
+        "vel_ini": 0.074071,
+        "vel_fin": 0.043531,
+        "razao_vel": 1.7016,
+        "comprimento": 3.77548,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.20169,
+          0.05417,
+          0.37771
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.77661,
+        "entropia_traj": 1.79324
+      },
+      {
+        "convergencia": 0.14439,
+        "vel_ini": 0.068664,
+        "vel_fin": 0.04385,
+        "razao_vel": 1.5659,
+        "comprimento": 3.60208,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.18097,
+          0.05436,
+          0.37655
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.77893,
+        "entropia_traj": 1.83652
+      },
+      {
+        "convergencia": 0.43693,
+        "vel_ini": 0.064083,
+        "vel_fin": 0.063907,
+        "razao_vel": 1.0027,
+        "comprimento": 3.11046,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.17901,
+          0.05338,
+          0.37081
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.77412,
+        "entropia_traj": 1.4625
+      },
+      {
+        "convergencia": 0.12061,
+        "vel_ini": 0.074406,
+        "vel_fin": 0.031638,
+        "razao_vel": 2.3518,
+        "comprimento": 2.80162,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.16532,
+          0.05427,
+          0.37128
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.77835,
+        "entropia_traj": 1.46565
+      },
+      {
+        "convergencia": 3.99824,
+        "vel_ini": 0.074192,
+        "vel_fin": 0.117051,
+        "razao_vel": 0.6338,
+        "comprimento": 4.69513,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.22067,
+          0.05488,
+          0.6526
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.75456,
+        "entropia_traj": 1.31121
+      },
+      {
+        "convergencia": 0.75763,
+        "vel_ini": 0.077843,
+        "vel_fin": 0.027853,
+        "razao_vel": 2.7948,
+        "comprimento": 3.75331,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.21638,
+          0.05473,
+          0.37481
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.76661,
+        "entropia_traj": 1.75049
+      },
+      {
+        "convergencia": 0.63778,
+        "vel_ini": 0.062765,
+        "vel_fin": 0.054049,
+        "razao_vel": 1.1613,
+        "comprimento": 3.76155,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.1545,
+          0.05428,
+          0.37579
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.77006,
+        "entropia_traj": 1.66037
+      },
+      {
+        "convergencia": 0.79343,
+        "vel_ini": 0.071883,
+        "vel_fin": 0.099115,
+        "razao_vel": 0.7252,
+        "comprimento": 4.60932,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.24356,
+          0.05574,
+          0.3866
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.76918,
+        "entropia_traj": 1.88313
+      },
+      {
+        "convergencia": 0.39824,
+        "vel_ini": 0.074404,
+        "vel_fin": 0.027862,
+        "razao_vel": 2.6704,
+        "comprimento": 3.9601,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.19532,
+          0.05417,
+          0.44404
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.77514,
+        "entropia_traj": 1.6544
+      },
+      {
+        "convergencia": 2.04611,
+        "vel_ini": 0.10388,
+        "vel_fin": 0.101844,
+        "razao_vel": 1.02,
+        "comprimento": 4.57063,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.21195,
+          0.05421,
+          0.56415
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.76216,
+        "entropia_traj": 1.80808
+      },
+      {
+        "convergencia": 0.31585,
+        "vel_ini": 0.064521,
+        "vel_fin": 0.039525,
+        "razao_vel": 1.6324,
+        "comprimento": 3.5349,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.19881,
+          0.05468,
+          0.37483
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.76912,
+        "entropia_traj": 1.69506
+      },
+      {
+        "convergencia": 1.41962,
+        "vel_ini": 0.064398,
+        "vel_fin": 0.076019,
+        "razao_vel": 0.8471,
+        "comprimento": 4.32942,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.24288,
+          0.0549,
+          0.43257
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.76419,
+        "entropia_traj": 1.58873
+      },
+      {
+        "convergencia": 1.18117,
+        "vel_ini": 0.076766,
+        "vel_fin": 0.050932,
+        "razao_vel": 1.5072,
+        "comprimento": 4.19382,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.2208,
+          0.05432,
+          0.36963
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.76273,
+        "entropia_traj": 1.81227
+      },
+      {
+        "convergencia": 2.02201,
+        "vel_ini": 0.079142,
+        "vel_fin": 0.084678,
+        "razao_vel": 0.9346,
+        "comprimento": 5.56869,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.23385,
+          0.05401,
+          0.3676
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.76239,
+        "entropia_traj": 2.13218
+      },
+      {
+        "convergencia": 1.76788,
+        "vel_ini": 0.063392,
+        "vel_fin": 0.036105,
+        "razao_vel": 1.7558,
+        "comprimento": 4.84781,
+        "amplitude": [
+          0.6324,
+          0.43,
+          0.19004,
+          0.06761,
+          0.51661
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.76646,
+        "entropia_traj": 1.67099
+      }
+    ]
+  },
+  "EXHAUSTION": {
+    "config": "Deplecao distribuida",
+    "emotional_hypothesis": "EXHAUSTION_ANALOG",
+    "initial_H": [
+      0.38,
+      0.48,
+      0.32,
+      0.4,
+      0.42
+    ],
+    "tau_initial": 0.9090909090909091,
+    "L_initial": 0.025000000000000012,
+    "n_trials": 30,
+    "n_steps": 80,
+    "traj_agg": {
+      "convergencia": 0.56452,
+      "vel_ini": 0.07033,
+      "vel_fin": 0.07427,
+      "razao_vel": 1.43259,
+      "comprimento": 4.98009,
+      "amplitude": [
+        0.5415,
+        0.39488,
+        0.20744,
+        0.04278,
+        0.57055
+      ],
+      "estabilidade": 0.37713,
+      "deriva": 0.40853,
+      "entropia_traj": 1.69442
+    },
+    "dominant_labels": {
+      "FEAR_ANALOG": 30
+    },
+    "trial_traj_metrics": [
+      {
+        "convergencia": 0.48677,
+        "vel_ini": 0.146876,
+        "vel_fin": 0.131417,
+        "razao_vel": 1.1176,
+        "comprimento": 5.57256,
+        "amplitude": [
+          0.5415,
+          0.39484,
+          0.21391,
+          0.03189,
+          0.38767
+        ],
+        "estabilidade": 0.378,
+        "deriva": 0.40919,
+        "entropia_traj": 2.22581
+      },
+      {
+        "convergencia": 0.42091,
+        "vel_ini": 0.079303,
+        "vel_fin": 0.122044,
+        "razao_vel": 0.6498,
+        "comprimento": 4.02061,
+        "amplitude": [
+          0.5415,
+          0.39498,
+          0.16197,
+          0.0274,
+          0.35504
+        ],
+        "estabilidade": 0.376,
+        "deriva": 0.40924,
+        "entropia_traj": 1.9691
+      },
+      {
+        "convergencia": 0.25557,
+        "vel_ini": 0.085069,
+        "vel_fin": 0.047131,
+        "razao_vel": 1.8049,
+        "comprimento": 5.42013,
+        "amplitude": [
+          0.5415,
+          0.395,
+          0.22886,
+          0.0277,
+          0.3889
+        ],
+        "estabilidade": 0.378,
+        "deriva": 0.40733,
+        "entropia_traj": 2.10958
+      },
+      {
+        "convergencia": 0.56575,
+        "vel_ini": 0.056053,
+        "vel_fin": 0.151021,
+        "razao_vel": 0.3712,
+        "comprimento": 6.02983,
+        "amplitude": [
+          0.5415,
+          0.39498,
+          0.22958,
+          0.04987,
+          0.78901
+        ],
+        "estabilidade": 0.378,
+        "deriva": 0.4065,
+        "entropia_traj": 1.25012
+      },
+      {
+        "convergencia": 1.03242,
+        "vel_ini": 0.095168,
+        "vel_fin": 0.194765,
+        "razao_vel": 0.4886,
+        "comprimento": 8.2103,
+        "amplitude": [
+          0.5415,
+          0.3945,
+          0.2597,
+          0.08634,
+          0.80205
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.40496,
+        "entropia_traj": 1.47356
+      },
+      {
+        "convergencia": 0.65207,
+        "vel_ini": 0.063061,
+        "vel_fin": 0.026103,
+        "razao_vel": 2.4159,
+        "comprimento": 4.56319,
+        "amplitude": [
+          0.5415,
+          0.39447,
+          0.23503,
+          0.03364,
+          0.42482
+        ],
+        "estabilidade": 0.377,
+        "deriva": 0.40435,
+        "entropia_traj": 1.74745
+      },
+      {
+        "convergencia": 0.86999,
+        "vel_ini": 0.059264,
+        "vel_fin": 0.098722,
+        "razao_vel": 0.6003,
+        "comprimento": 4.40354,
+        "amplitude": [
+          0.5415,
+          0.39466,
+          0.17175,
+          0.03023,
+          0.50502
+        ],
+        "estabilidade": 0.376,
+        "deriva": 0.40369,
+        "entropia_traj": 1.61187
+      },
+      {
+        "convergencia": 0.10275,
+        "vel_ini": 0.056689,
+        "vel_fin": 0.040026,
+        "razao_vel": 1.4163,
+        "comprimento": 5.50774,
+        "amplitude": [
+          0.5415,
+          0.39511,
+          0.23613,
+          0.07938,
+          1.25535
+        ],
+        "estabilidade": 0.378,
+        "deriva": 0.40977,
+        "entropia_traj": 0.83642
+      },
+      {
+        "convergencia": 0.1498,
+        "vel_ini": 0.062691,
+        "vel_fin": 0.040347,
+        "razao_vel": 1.5538,
+        "comprimento": 3.95095,
+        "amplitude": [
+          0.5415,
+          0.39487,
+          0.14422,
+          0.027,
+          0.3626
+        ],
+        "estabilidade": 0.376,
+        "deriva": 0.40671,
+        "entropia_traj": 1.79562
+      },
+      {
+        "convergencia": 0.80671,
+        "vel_ini": 0.064879,
+        "vel_fin": 0.080631,
+        "razao_vel": 0.8046,
+        "comprimento": 5.13484,
+        "amplitude": [
+          0.5415,
+          0.39511,
+          0.22826,
+          0.02751,
+          0.61589
+        ],
+        "estabilidade": 0.377,
+        "deriva": 0.40811,
+        "entropia_traj": 1.52888
+      },
+      {
+        "convergencia": 5.22062,
+        "vel_ini": 0.075079,
+        "vel_fin": 0.286195,
+        "razao_vel": 0.2623,
+        "comprimento": 6.57963,
+        "amplitude": [
+          0.5415,
+          0.39483,
+          0.26536,
+          0.08332,
+          1.23355
+        ],
+        "estabilidade": 0.378,
+        "deriva": 0.41071,
+        "entropia_traj": 0.93767
+      },
+      {
+        "convergencia": 0.14008,
+        "vel_ini": 0.161567,
+        "vel_fin": 0.047685,
+        "razao_vel": 3.3882,
+        "comprimento": 4.67955,
+        "amplitude": [
+          0.5415,
+          0.39475,
+          0.23191,
+          0.02766,
+          0.50872
+        ],
+        "estabilidade": 0.377,
+        "deriva": 0.41217,
+        "entropia_traj": 1.38784
+      },
+      {
+        "convergencia": 0.16906,
+        "vel_ini": 0.056503,
+        "vel_fin": 0.031545,
+        "razao_vel": 1.7912,
+        "comprimento": 7.46608,
+        "amplitude": [
+          0.5415,
+          0.39536,
+          0.22974,
+          0.06554,
+          0.96386
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.41071,
+        "entropia_traj": 1.17555
+      },
+      {
+        "convergencia": 0.18182,
+        "vel_ini": 0.057134,
+        "vel_fin": 0.019135,
+        "razao_vel": 2.9859,
+        "comprimento": 3.73791,
+        "amplitude": [
+          0.5415,
+          0.39486,
+          0.1736,
+          0.02884,
+          0.34823
+        ],
+        "estabilidade": 0.376,
+        "deriva": 0.41166,
+        "entropia_traj": 1.88209
+      },
+      {
+        "convergencia": 0.0754,
+        "vel_ini": 0.057573,
+        "vel_fin": 0.013471,
+        "razao_vel": 4.2739,
+        "comprimento": 3.06771,
+        "amplitude": [
+          0.5415,
+          0.39496,
+          0.19035,
+          0.02761,
+          0.23923
+        ],
+        "estabilidade": 0.376,
+        "deriva": 0.41324,
+        "entropia_traj": 2.09707
+      },
+      {
+        "convergencia": 0.05401,
+        "vel_ini": 0.058693,
+        "vel_fin": 0.043531,
+        "razao_vel": 1.3483,
+        "comprimento": 3.6762,
+        "amplitude": [
+          0.5415,
+          0.39504,
+          0.1684,
+          0.02772,
+          0.29346
+        ],
+        "estabilidade": 0.375,
+        "deriva": 0.41152,
+        "entropia_traj": 1.95506
+      },
+      {
+        "convergencia": 0.03593,
+        "vel_ini": 0.063848,
+        "vel_fin": 0.04385,
+        "razao_vel": 1.456,
+        "comprimento": 5.02699,
+        "amplitude": [
+          0.5415,
+          0.39499,
+          0.18368,
+          0.0517,
+          0.8089
+        ],
+        "estabilidade": 0.377,
+        "deriva": 0.41281,
+        "entropia_traj": 1.27561
+      },
+      {
+        "convergencia": 0.15532,
+        "vel_ini": 0.050542,
+        "vel_fin": 0.063907,
+        "razao_vel": 0.7909,
+        "comprimento": 3.00375,
+        "amplitude": [
+          0.5415,
+          0.39493,
+          0.17015,
+          0.02908,
+          0.22705
+        ],
+        "estabilidade": 0.375,
+        "deriva": 0.41249,
+        "entropia_traj": 2.04153
+      },
+      {
+        "convergencia": 0.02396,
+        "vel_ini": 0.062334,
+        "vel_fin": 0.031638,
+        "razao_vel": 1.9702,
+        "comprimento": 3.14323,
+        "amplitude": [
+          0.5415,
+          0.39464,
+          0.22751,
+          0.02761,
+          0.32268
+        ],
+        "estabilidade": 0.375,
+        "deriva": 0.41055,
+        "entropia_traj": 1.62774
+      },
+      {
+        "convergencia": 1.46423,
+        "vel_ini": 0.055218,
+        "vel_fin": 0.117051,
+        "razao_vel": 0.4717,
+        "comprimento": 5.45669,
+        "amplitude": [
+          0.5415,
+          0.39486,
+          0.2052,
+          0.02718,
+          0.6526
+        ],
+        "estabilidade": 0.378,
+        "deriva": 0.4075,
+        "entropia_traj": 1.51678
+      },
+      {
+        "convergencia": 0.26878,
+        "vel_ini": 0.064157,
+        "vel_fin": 0.027853,
+        "razao_vel": 2.3035,
+        "comprimento": 4.5329,
+        "amplitude": [
+          0.5415,
+          0.39479,
+          0.23556,
+          0.03252,
+          0.42921
+        ],
+        "estabilidade": 0.377,
+        "deriva": 0.40629,
+        "entropia_traj": 1.82149
+      },
+      {
+        "convergencia": 0.21597,
+        "vel_ini": 0.050458,
+        "vel_fin": 0.054049,
+        "razao_vel": 0.9336,
+        "comprimento": 4.74938,
+        "amplitude": [
+          0.5415,
+          0.3948,
+          0.17695,
+          0.02751,
+          0.35143
+        ],
+        "estabilidade": 0.378,
+        "deriva": 0.40755,
+        "entropia_traj": 1.98351
+      },
+      {
+        "convergencia": 0.25745,
+        "vel_ini": 0.073273,
+        "vel_fin": 0.099115,
+        "razao_vel": 0.7393,
+        "comprimento": 5.77457,
+        "amplitude": [
+          0.5415,
+          0.3949,
+          0.21462,
+          0.0512,
+          0.69955
+        ],
+        "estabilidade": 0.378,
+        "deriva": 0.40888,
+        "entropia_traj": 1.49351
+      },
+      {
+        "convergencia": 0.16361,
+        "vel_ini": 0.063046,
+        "vel_fin": 0.027862,
+        "razao_vel": 2.2628,
+        "comprimento": 3.33985,
+        "amplitude": [
+          0.5415,
+          0.39532,
+          0.14654,
+          0.02747,
+          0.23549
+        ],
+        "estabilidade": 0.375,
+        "deriva": 0.41003,
+        "entropia_traj": 2.1349
+      },
+      {
+        "convergencia": 0.79041,
+        "vel_ini": 0.088772,
+        "vel_fin": 0.101844,
+        "razao_vel": 0.8716,
+        "comprimento": 4.43173,
+        "amplitude": [
+          0.5415,
+          0.39495,
+          0.22211,
+          0.02758,
+          0.56415
+        ],
+        "estabilidade": 0.376,
+        "deriva": 0.40706,
+        "entropia_traj": 1.93644
+      },
+      {
+        "convergencia": 0.08058,
+        "vel_ini": 0.050558,
+        "vel_fin": 0.039525,
+        "razao_vel": 1.2791,
+        "comprimento": 4.13451,
+        "amplitude": [
+          0.5415,
+          0.39501,
+          0.21201,
+          0.02774,
+          0.29024
+        ],
+        "estabilidade": 0.377,
+        "deriva": 0.40973,
+        "entropia_traj": 2.14097
+      },
+      {
+        "convergencia": 0.50051,
+        "vel_ini": 0.050357,
+        "vel_fin": 0.076019,
+        "razao_vel": 0.6624,
+        "comprimento": 7.62842,
+        "amplitude": [
+          0.5415,
+          0.39468,
+          0.24087,
+          0.17974,
+          1.78682
+        ],
+        "estabilidade": 0.378,
+        "deriva": 0.40443,
+        "entropia_traj": 0.7147
+      },
+      {
+        "convergencia": 0.48032,
+        "vel_ini": 0.095182,
+        "vel_fin": 0.050932,
+        "razao_vel": 1.8688,
+        "comprimento": 5.35999,
+        "amplitude": [
+          0.5415,
+          0.39474,
+          0.21255,
+          0.02745,
+          0.39371
+        ],
+        "estabilidade": 0.378,
+        "deriva": 0.40499,
+        "entropia_traj": 2.14146
+      },
+      {
+        "convergencia": 0.71207,
+        "vel_ini": 0.053734,
+        "vel_fin": 0.084678,
+        "razao_vel": 0.6346,
+        "comprimento": 6.46459,
+        "amplitude": [
+          0.5415,
+          0.39469,
+          0.24026,
+          0.03415,
+          0.45014
+        ],
+        "estabilidade": 0.378,
+        "deriva": 0.40808,
+        "entropia_traj": 2.04337
+      },
+      {
+        "convergencia": 0.60284,
+        "vel_ini": 0.05273,
+        "vel_fin": 0.036105,
+        "razao_vel": 1.4605,
+        "comprimento": 4.33525,
+        "amplitude": [
+          0.5415,
+          0.3948,
+          0.16656,
+          0.0309,
+          0.43124
+        ],
+        "estabilidade": 0.377,
+        "deriva": 0.40568,
+        "entropia_traj": 1.977
+      }
+    ]
+  },
+  "CONFLICT": {
+    "config": "Conflito motivacional",
+    "emotional_hypothesis": "CONFLICT_ANALOG",
+    "initial_H": [
+      0.6,
+      0.22,
+      0.88,
+      0.6,
+      0.675
+    ],
+    "tau_initial": 0.6756756756756757,
+    "L_initial": 0.12000000000000002,
+    "n_trials": 30,
+    "n_steps": 80,
+    "traj_agg": {
+      "convergencia": 2.41358,
+      "vel_ini": 0.06525,
+      "vel_fin": 0.07473,
+      "razao_vel": 1.33111,
+      "comprimento": 3.93972,
+      "amplitude": [
+        0.3081,
+        0.30906,
+        0.18144,
+        0.05045,
+        0.45667
+      ],
+      "estabilidade": 0.38463,
+      "deriva": 0.42395,
+      "entropia_traj": 1.71371
+    },
+    "dominant_labels": {
+      "FEAR_ANALOG": 30
+    },
+    "trial_traj_metrics": [
+      {
+        "convergencia": 2.17641,
+        "vel_ini": 0.080783,
+        "vel_fin": 0.130181,
+        "razao_vel": 0.6205,
+        "comprimento": 4.207,
+        "amplitude": [
+          0.3081,
+          0.30905,
+          0.16633,
+          0.04726,
+          0.38767
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.41413,
+        "entropia_traj": 1.82187
+      },
+      {
+        "convergencia": 1.61958,
+        "vel_ini": 0.075922,
+        "vel_fin": 0.123715,
+        "razao_vel": 0.6137,
+        "comprimento": 3.87084,
+        "amplitude": [
+          0.3081,
+          0.30908,
+          0.16634,
+          0.04703,
+          0.35504
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.41693,
+        "entropia_traj": 1.86568
+      },
+      {
+        "convergencia": 1.15254,
+        "vel_ini": 0.070841,
+        "vel_fin": 0.046808,
+        "razao_vel": 1.5134,
+        "comprimento": 3.68563,
+        "amplitude": [
+          0.3081,
+          0.30909,
+          0.18098,
+          0.05111,
+          0.29788
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.42257,
+        "entropia_traj": 2.13472
+      },
+      {
+        "convergencia": 5.19127,
+        "vel_ini": 0.060333,
+        "vel_fin": 0.152931,
+        "razao_vel": 0.3945,
+        "comprimento": 4.07648,
+        "amplitude": [
+          0.3081,
+          0.30908,
+          0.20884,
+          0.05664,
+          0.54883
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.41137,
+        "entropia_traj": 1.30607
+      },
+      {
+        "convergencia": 4.05232,
+        "vel_ini": 0.086976,
+        "vel_fin": 0.197334,
+        "razao_vel": 0.4408,
+        "comprimento": 6.00012,
+        "amplitude": [
+          0.3081,
+          0.30898,
+          0.20242,
+          0.047,
+          0.4709
+        ],
+        "estabilidade": 0.387,
+        "deriva": 0.41197,
+        "entropia_traj": 1.74396
+      },
+      {
+        "convergencia": 2.39872,
+        "vel_ini": 0.062639,
+        "vel_fin": 0.026569,
+        "razao_vel": 2.3576,
+        "comprimento": 4.28087,
+        "amplitude": [
+          0.3081,
+          0.30897,
+          0.20009,
+          0.04662,
+          0.4092
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.42465,
+        "entropia_traj": 1.82983
+      },
+      {
+        "convergencia": 3.76852,
+        "vel_ini": 0.056061,
+        "vel_fin": 0.098722,
+        "razao_vel": 0.5679,
+        "comprimento": 4.15291,
+        "amplitude": [
+          0.3081,
+          0.30901,
+          0.19539,
+          0.04636,
+          0.50502
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.41721,
+        "entropia_traj": 1.41408
+      },
+      {
+        "convergencia": 0.44422,
+        "vel_ini": 0.06029,
+        "vel_fin": 0.040075,
+        "razao_vel": 1.5044,
+        "comprimento": 3.30492,
+        "amplitude": [
+          0.3081,
+          0.30911,
+          0.16678,
+          0.04658,
+          0.30055
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.43234,
+        "entropia_traj": 1.95982
+      },
+      {
+        "convergencia": 0.63971,
+        "vel_ini": 0.062813,
+        "vel_fin": 0.040347,
+        "razao_vel": 1.5568,
+        "comprimento": 3.36357,
+        "amplitude": [
+          0.3081,
+          0.30906,
+          0.16878,
+          0.04641,
+          0.30176
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.43285,
+        "entropia_traj": 1.93956
+      },
+      {
+        "convergencia": 2.39418,
+        "vel_ini": 0.066742,
+        "vel_fin": 0.080665,
+        "razao_vel": 0.8274,
+        "comprimento": 4.28935,
+        "amplitude": [
+          0.3081,
+          0.30911,
+          0.20288,
+          0.04702,
+          0.44212
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.416,
+        "entropia_traj": 1.99695
+      },
+      {
+        "convergencia": 22.36557,
+        "vel_ini": 0.069889,
+        "vel_fin": 0.287072,
+        "razao_vel": 0.2435,
+        "comprimento": 5.28632,
+        "amplitude": [
+          0.3081,
+          0.30905,
+          0.20642,
+          0.08983,
+          1.23355
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.40301,
+        "entropia_traj": 0.63102
+      },
+      {
+        "convergencia": 0.78915,
+        "vel_ini": 0.086993,
+        "vel_fin": 0.048089,
+        "razao_vel": 1.809,
+        "comprimento": 4.45163,
+        "amplitude": [
+          0.3081,
+          0.30903,
+          0.20607,
+          0.05539,
+          0.71807
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.42767,
+        "entropia_traj": 1.4599
+      },
+      {
+        "convergencia": 0.79361,
+        "vel_ini": 0.064019,
+        "vel_fin": 0.032893,
+        "razao_vel": 1.9463,
+        "comprimento": 5.65565,
+        "amplitude": [
+          0.3081,
+          0.30917,
+          0.21023,
+          0.09076,
+          1.15112
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.4285,
+        "entropia_traj": 0.84285
+      },
+      {
+        "convergencia": 0.9314,
+        "vel_ini": 0.056516,
+        "vel_fin": 0.019378,
+        "razao_vel": 2.9165,
+        "comprimento": 3.40051,
+        "amplitude": [
+          0.3081,
+          0.30906,
+          0.19126,
+          0.04677,
+          0.3542
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.43266,
+        "entropia_traj": 1.92217
+      },
+      {
+        "convergencia": 0.46729,
+        "vel_ini": 0.051483,
+        "vel_fin": 0.016051,
+        "razao_vel": 3.2074,
+        "comprimento": 2.75834,
+        "amplitude": [
+          0.3081,
+          0.30908,
+          0.15915,
+          0.04673,
+          0.29039
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.43668,
+        "entropia_traj": 1.78312
+      },
+      {
+        "convergencia": 0.20314,
+        "vel_ini": 0.060714,
+        "vel_fin": 0.043016,
+        "razao_vel": 1.4114,
+        "comprimento": 3.13582,
+        "amplitude": [
+          0.3081,
+          0.3091,
+          0.16425,
+          0.04687,
+          0.2801
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.43276,
+        "entropia_traj": 1.92994
+      },
+      {
+        "convergencia": 0.1816,
+        "vel_ini": 0.05824,
+        "vel_fin": 0.043334,
+        "razao_vel": 1.344,
+        "comprimento": 3.15532,
+        "amplitude": [
+          0.3081,
+          0.30908,
+          0.15871,
+          0.04693,
+          0.29554
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.43602,
+        "entropia_traj": 1.96035
+      },
+      {
+        "convergencia": 0.67073,
+        "vel_ini": 0.050228,
+        "vel_fin": 0.065375,
+        "razao_vel": 0.7683,
+        "comprimento": 2.74616,
+        "amplitude": [
+          0.3081,
+          0.30907,
+          0.14139,
+          0.04708,
+          0.2858
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.42823,
+        "entropia_traj": 1.75581
+      },
+      {
+        "convergencia": 0.15053,
+        "vel_ini": 0.061253,
+        "vel_fin": 0.031645,
+        "razao_vel": 1.9356,
+        "comprimento": 2.46348,
+        "amplitude": [
+          0.3081,
+          0.30901,
+          0.12901,
+          0.04648,
+          0.28822
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.43606,
+        "entropia_traj": 1.65998
+      },
+      {
+        "convergencia": 5.94446,
+        "vel_ini": 0.061793,
+        "vel_fin": 0.117334,
+        "razao_vel": 0.5266,
+        "comprimento": 4.87655,
+        "amplitude": [
+          0.3081,
+          0.30906,
+          0.20049,
+          0.04707,
+          0.6526
+        ],
+        "estabilidade": 0.386,
+        "deriva": 0.41011,
+        "entropia_traj": 1.43029
+      },
+      {
+        "convergencia": 0.30519,
+        "vel_ini": 0.065703,
+        "vel_fin": 0.02786,
+        "razao_vel": 2.3583,
+        "comprimento": 4.01281,
+        "amplitude": [
+          0.3081,
+          0.30904,
+          0.19359,
+          0.04659,
+          0.60716
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.43753,
+        "entropia_traj": 1.6641
+      },
+      {
+        "convergencia": 0.9147,
+        "vel_ini": 0.05036,
+        "vel_fin": 0.05405,
+        "razao_vel": 0.9317,
+        "comprimento": 3.3481,
+        "amplitude": [
+          0.3081,
+          0.30905,
+          0.10619,
+          0.04674,
+          0.29637
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.4256,
+        "entropia_traj": 1.90405
+      },
+      {
+        "convergencia": 1.20611,
+        "vel_ini": 0.067384,
+        "vel_fin": 0.101148,
+        "razao_vel": 0.6662,
+        "comprimento": 4.13951,
+        "amplitude": [
+          0.3081,
+          0.30906,
+          0.18557,
+          0.04778,
+          0.37189
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.42573,
+        "entropia_traj": 1.90088
+      },
+      {
+        "convergencia": 0.68604,
+        "vel_ini": 0.066021,
+        "vel_fin": 0.028065,
+        "razao_vel": 2.3524,
+        "comprimento": 3.12208,
+        "amplitude": [
+          0.3081,
+          0.30916,
+          0.17729,
+          0.04658,
+          0.29414
+        ],
+        "estabilidade": 0.383,
+        "deriva": 0.43233,
+        "entropia_traj": 1.91912
+      },
+      {
+        "convergencia": 3.20594,
+        "vel_ini": 0.083808,
+        "vel_fin": 0.10185,
+        "razao_vel": 0.8229,
+        "comprimento": 4.10172,
+        "amplitude": [
+          0.3081,
+          0.30908,
+          0.18491,
+          0.04664,
+          0.56415
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.41661,
+        "entropia_traj": 1.7761
+      },
+      {
+        "convergencia": 0.24977,
+        "vel_ini": 0.082731,
+        "vel_fin": 0.039617,
+        "razao_vel": 2.0883,
+        "comprimento": 3.16378,
+        "amplitude": [
+          0.3081,
+          0.30909,
+          0.19644,
+          0.04692,
+          0.40835
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.42933,
+        "entropia_traj": 1.36083
+      },
+      {
+        "convergencia": 2.24238,
+        "vel_ini": 0.050813,
+        "vel_fin": 0.076019,
+        "razao_vel": 0.6684,
+        "comprimento": 4.3879,
+        "amplitude": [
+          0.3081,
+          0.30902,
+          0.20387,
+          0.04651,
+          0.4554
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.41986,
+        "entropia_traj": 1.59146
+      },
+      {
+        "convergencia": 1.705,
+        "vel_ini": 0.076261,
+        "vel_fin": 0.050865,
+        "razao_vel": 1.4993,
+        "comprimento": 3.91441,
+        "amplitude": [
+          0.3081,
+          0.30903,
+          0.18705,
+          0.04662,
+          0.35784
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.41941,
+        "entropia_traj": 1.9871
+      },
+      {
+        "convergencia": 2.96651,
+        "vel_ini": 0.063344,
+        "vel_fin": 0.084869,
+        "razao_vel": 0.7464,
+        "comprimento": 4.91354,
+        "amplitude": [
+          0.3081,
+          0.30902,
+          0.21077,
+          0.0468,
+          0.37006
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.41719,
+        "entropia_traj": 1.97509
+      },
+      {
+        "convergencia": 2.59095,
+        "vel_ini": 0.046468,
+        "vel_fin": 0.035917,
+        "razao_vel": 1.2938,
+        "comprimento": 3.92618,
+        "amplitude": [
+          0.3081,
+          0.30905,
+          0.17176,
+          0.04649,
+          0.4063
+        ],
+        "estabilidade": 0.385,
+        "deriva": 0.42324,
+        "entropia_traj": 1.94453
+      }
+    ]
+  },
+  "FEAR_SEEK_TRANS": {
+    "config": "Transicao FEAR-SEEK",
+    "emotional_hypothesis": "FEAR_SEEK_TRANSITION",
+    "initial_H": [
+      0.78,
+      0.25,
+      0.5,
+      0.6,
+      0.675
+    ],
+    "tau_initial": 0.7692307692307692,
+    "L_initial": 0.075,
+    "n_trials": 30,
+    "n_steps": 80,
+    "traj_agg": {
+      "convergencia": 1.37885,
+      "vel_ini": 0.0732,
+      "vel_fin": 0.07427,
+      "razao_vel": 1.51744,
+      "comprimento": 4.52066,
+      "amplitude": [
+        0.4016,
+        0.35132,
+        0.22809,
+        0.05589,
+        0.47764
+      ],
+      "estabilidade": 0.38077,
+      "deriva": 0.46457,
+      "entropia_traj": 1.7529
+    },
+    "dominant_labels": {
+      "FEAR_ANALOG": 30
+    },
+    "trial_traj_metrics": [
+      {
+        "convergencia": 1.32729,
+        "vel_ini": 0.091483,
+        "vel_fin": 0.131417,
+        "razao_vel": 0.6961,
+        "comprimento": 5.01359,
+        "amplitude": [
+          0.4016,
+          0.3513,
+          0.20579,
+          0.05532,
+          0.38767
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.45838,
+        "entropia_traj": 2.0087
+      },
+      {
+        "convergencia": 1.0372,
+        "vel_ini": 0.082637,
+        "vel_fin": 0.122044,
+        "razao_vel": 0.6771,
+        "comprimento": 4.09069,
+        "amplitude": [
+          0.4016,
+          0.35137,
+          0.20206,
+          0.05271,
+          0.35504
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.46116,
+        "entropia_traj": 1.82253
+      },
+      {
+        "convergencia": 0.60931,
+        "vel_ini": 0.084118,
+        "vel_fin": 0.047131,
+        "razao_vel": 1.7847,
+        "comprimento": 4.51132,
+        "amplitude": [
+          0.4016,
+          0.35138,
+          0.2403,
+          0.05285,
+          0.4511
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.46327,
+        "entropia_traj": 2.21205
+      },
+      {
+        "convergencia": 2.60114,
+        "vel_ini": 0.066355,
+        "vel_fin": 0.151021,
+        "razao_vel": 0.4394,
+        "comprimento": 4.35795,
+        "amplitude": [
+          0.4016,
+          0.35136,
+          0.25579,
+          0.05364,
+          0.54883
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.45573,
+        "entropia_traj": 1.22845
+      },
+      {
+        "convergencia": 2.23699,
+        "vel_ini": 0.09574,
+        "vel_fin": 0.194765,
+        "razao_vel": 0.4916,
+        "comprimento": 7.40903,
+        "amplitude": [
+          0.4016,
+          0.35113,
+          0.25693,
+          0.05684,
+          0.74943
+        ],
+        "estabilidade": 0.384,
+        "deriva": 0.45674,
+        "entropia_traj": 1.63797
+      },
+      {
+        "convergencia": 1.58874,
+        "vel_ini": 0.068647,
+        "vel_fin": 0.026103,
+        "razao_vel": 2.6299,
+        "comprimento": 5.07504,
+        "amplitude": [
+          0.4016,
+          0.35112,
+          0.25172,
+          0.05445,
+          0.42788
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.46328,
+        "entropia_traj": 1.8253
+      },
+      {
+        "convergencia": 2.09179,
+        "vel_ini": 0.064547,
+        "vel_fin": 0.098722,
+        "razao_vel": 0.6538,
+        "comprimento": 4.56951,
+        "amplitude": [
+          0.4016,
+          0.35121,
+          0.22416,
+          0.05421,
+          0.50502
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.45841,
+        "entropia_traj": 1.52368
+      },
+      {
+        "convergencia": 0.25689,
+        "vel_ini": 0.069524,
+        "vel_fin": 0.040026,
+        "razao_vel": 1.7369,
+        "comprimento": 4.91937,
+        "amplitude": [
+          0.4016,
+          0.35142,
+          0.2637,
+          0.07843,
+          0.87286
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.47227,
+        "entropia_traj": 1.05213
+      },
+      {
+        "convergencia": 0.35623,
+        "vel_ini": 0.065784,
+        "vel_fin": 0.040347,
+        "razao_vel": 1.6305,
+        "comprimento": 3.80726,
+        "amplitude": [
+          0.4016,
+          0.35131,
+          0.19857,
+          0.05293,
+          0.33724
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.47119,
+        "entropia_traj": 1.86891
+      },
+      {
+        "convergencia": 2.05897,
+        "vel_ini": 0.070333,
+        "vel_fin": 0.080631,
+        "razao_vel": 0.8723,
+        "comprimento": 5.13977,
+        "amplitude": [
+          0.4016,
+          0.35143,
+          0.24442,
+          0.05287,
+          0.56764
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.45709,
+        "entropia_traj": 1.78182
+      },
+      {
+        "convergencia": 12.43013,
+        "vel_ini": 0.075248,
+        "vel_fin": 0.286195,
+        "razao_vel": 0.2629,
+        "comprimento": 6.26272,
+        "amplitude": [
+          0.4016,
+          0.35129,
+          0.26409,
+          0.08526,
+          1.23355
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.44906,
+        "entropia_traj": 0.86667
+      },
+      {
+        "convergencia": 0.54434,
+        "vel_ini": 0.077497,
+        "vel_fin": 0.047685,
+        "razao_vel": 1.6252,
+        "comprimento": 3.99718,
+        "amplitude": [
+          0.4016,
+          0.35125,
+          0.25741,
+          0.05438,
+          0.29814
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.46472,
+        "entropia_traj": 2.00447
+      },
+      {
+        "convergencia": 0.40208,
+        "vel_ini": 0.070064,
+        "vel_fin": 0.031545,
+        "razao_vel": 2.2211,
+        "comprimento": 5.81554,
+        "amplitude": [
+          0.4016,
+          0.35154,
+          0.23027,
+          0.07,
+          1.02448
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.46926,
+        "entropia_traj": 1.03366
+      },
+      {
+        "convergencia": 0.45217,
+        "vel_ini": 0.061516,
+        "vel_fin": 0.019135,
+        "razao_vel": 3.2149,
+        "comprimento": 3.93263,
+        "amplitude": [
+          0.4016,
+          0.35131,
+          0.24995,
+          0.05285,
+          0.41376
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.47301,
+        "entropia_traj": 1.77269
+      },
+      {
+        "convergencia": 0.20956,
+        "vel_ini": 0.072043,
+        "vel_fin": 0.013471,
+        "razao_vel": 5.3481,
+        "comprimento": 3.38868,
+        "amplitude": [
+          0.4016,
+          0.35135,
+          0.20284,
+          0.05283,
+          0.29786
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.47506,
+        "entropia_traj": 1.87862
+      },
+      {
+        "convergencia": 0.1296,
+        "vel_ini": 0.065013,
+        "vel_fin": 0.043531,
+        "razao_vel": 1.4935,
+        "comprimento": 3.55793,
+        "amplitude": [
+          0.4016,
+          0.3514,
+          0.19564,
+          0.05294,
+          0.30281
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.47359,
+        "entropia_traj": 1.94332
+      },
+      {
+        "convergencia": 0.08829,
+        "vel_ini": 0.066451,
+        "vel_fin": 0.04385,
+        "razao_vel": 1.5154,
+        "comprimento": 3.83129,
+        "amplitude": [
+          0.4016,
+          0.35136,
+          0.19776,
+          0.05346,
+          0.33192
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.47674,
+        "entropia_traj": 1.98921
+      },
+      {
+        "convergencia": 0.41202,
+        "vel_ini": 0.05328,
+        "vel_fin": 0.063907,
+        "razao_vel": 0.8337,
+        "comprimento": 3.09224,
+        "amplitude": [
+          0.4016,
+          0.35134,
+          0.1978,
+          0.0528,
+          0.29305
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.47068,
+        "entropia_traj": 1.72962
+      },
+      {
+        "convergencia": 0.05792,
+        "vel_ini": 0.069514,
+        "vel_fin": 0.031638,
+        "razao_vel": 2.1972,
+        "comprimento": 2.77174,
+        "amplitude": [
+          0.4016,
+          0.3512,
+          0.1708,
+          0.05308,
+          0.29591
+        ],
+        "estabilidade": 0.379,
+        "deriva": 0.47459,
+        "entropia_traj": 1.67797
+      },
+      {
+        "convergencia": 3.37987,
+        "vel_ini": 0.073006,
+        "vel_fin": 0.117051,
+        "razao_vel": 0.6237,
+        "comprimento": 5.3212,
+        "amplitude": [
+          0.4016,
+          0.3513,
+          0.23642,
+          0.05587,
+          0.6526
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.45193,
+        "entropia_traj": 1.47328
+      },
+      {
+        "convergencia": 0.69877,
+        "vel_ini": 0.071263,
+        "vel_fin": 0.027853,
+        "razao_vel": 2.5586,
+        "comprimento": 3.78417,
+        "amplitude": [
+          0.4016,
+          0.35128,
+          0.23674,
+          0.05304,
+          0.30205
+        ],
+        "estabilidade": 0.38,
+        "deriva": 0.46463,
+        "entropia_traj": 1.93909
+      },
+      {
+        "convergencia": 0.5085,
+        "vel_ini": 0.055496,
+        "vel_fin": 0.054049,
+        "razao_vel": 1.0268,
+        "comprimento": 4.00822,
+        "amplitude": [
+          0.4016,
+          0.35128,
+          0.18295,
+          0.05289,
+          0.30007
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.46509,
+        "entropia_traj": 2.00029
+      },
+      {
+        "convergencia": 0.71762,
+        "vel_ini": 0.070576,
+        "vel_fin": 0.099115,
+        "razao_vel": 0.7121,
+        "comprimento": 4.78135,
+        "amplitude": [
+          0.4016,
+          0.35132,
+          0.23257,
+          0.05295,
+          0.42828
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.46595,
+        "entropia_traj": 2.00775
+      },
+      {
+        "convergencia": 0.39716,
+        "vel_ini": 0.070759,
+        "vel_fin": 0.027862,
+        "razao_vel": 2.5396,
+        "comprimento": 3.41926,
+        "amplitude": [
+          0.4016,
+          0.35153,
+          0.20275,
+          0.05287,
+          0.29847
+        ],
+        "estabilidade": 0.379,
+        "deriva": 0.47244,
+        "entropia_traj": 1.96552
+      },
+      {
+        "convergencia": 0.81628,
+        "vel_ini": 0.157694,
+        "vel_fin": 0.101844,
+        "razao_vel": 1.5484,
+        "comprimento": 5.42089,
+        "amplitude": [
+          0.4016,
+          0.35135,
+          0.24053,
+          0.05275,
+          0.61736
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.46733,
+        "entropia_traj": 1.88662
+      },
+      {
+        "convergencia": 0.22602,
+        "vel_ini": 0.060827,
+        "vel_fin": 0.039525,
+        "razao_vel": 1.539,
+        "comprimento": 3.39598,
+        "amplitude": [
+          0.4016,
+          0.35137,
+          0.24088,
+          0.05285,
+          0.29913
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.46598,
+        "entropia_traj": 1.66975
+      },
+      {
+        "convergencia": 1.21405,
+        "vel_ini": 0.057477,
+        "vel_fin": 0.076019,
+        "razao_vel": 0.7561,
+        "comprimento": 5.25659,
+        "amplitude": [
+          0.4016,
+          0.35122,
+          0.2604,
+          0.05311,
+          0.54749
+        ],
+        "estabilidade": 0.382,
+        "deriva": 0.46004,
+        "entropia_traj": 1.73729
+      },
+      {
+        "convergencia": 1.25544,
+        "vel_ini": 0.074484,
+        "vel_fin": 0.050932,
+        "razao_vel": 1.4624,
+        "comprimento": 4.6187,
+        "amplitude": [
+          0.4016,
+          0.35125,
+          0.22411,
+          0.05291,
+          0.39371
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.4588,
+        "entropia_traj": 1.97952
+      },
+      {
+        "convergencia": 1.80873,
+        "vel_ini": 0.081476,
+        "vel_fin": 0.084678,
+        "razao_vel": 0.9622,
+        "comprimento": 5.47664,
+        "amplitude": [
+          0.4016,
+          0.35123,
+          0.25242,
+          0.05286,
+          0.36468
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.45887,
+        "entropia_traj": 2.07675
+      },
+      {
+        "convergencia": 1.45229,
+        "vel_ini": 0.053079,
+        "vel_fin": 0.036105,
+        "razao_vel": 1.4701,
+        "comprimento": 4.59327,
+        "amplitude": [
+          0.4016,
+          0.35128,
+          0.22307,
+          0.05289,
+          0.43124
+        ],
+        "estabilidade": 0.381,
+        "deriva": 0.46189,
+        "entropia_traj": 1.99338
+      }
+    ]
+  },
+  "statistical_analysis": {
+    "convergencia": {
+      "kruskal_stat": 36.1319,
+      "p_value": 8.938e-07,
+      "significant": true,
+      "group_means": {
+        "BASELINE": 0.50116,
+        "FEAR": 1.56227,
+        "CARE": 1.62567,
+        "EXHAUSTION": 0.56452,
+        "CONFLICT": 2.41358,
+        "FEAR_SEEK_TRANS": 1.37885
+      }
+    },
+    "razao_vel": {
+      "kruskal_stat": 3.2161,
+      "p_value": 0.6667116847,
+      "significant": false,
+      "group_means": {
+        "BASELINE": 1.6179,
+        "FEAR": 1.30786,
+        "CARE": 1.57788,
+        "EXHAUSTION": 1.43259,
+        "CONFLICT": 1.33111,
+        "FEAR_SEEK_TRANS": 1.51744
+      }
+    },
+    "comprimento": {
+      "kruskal_stat": 13.2066,
+      "p_value": 0.0215179076,
+      "significant": true,
+      "group_means": {
+        "BASELINE": 4.53603,
+        "FEAR": 4.65287,
+        "CARE": 4.32208,
+        "EXHAUSTION": 4.98009,
+        "CONFLICT": 3.93972,
+        "FEAR_SEEK_TRANS": 4.52066
+      }
+    },
+    "estabilidade": {
+      "kruskal_stat": 144.8133,
+      "p_value": 0.0,
+      "significant": true,
+      "group_means": {
+        "BASELINE": 0.3832,
+        "FEAR": 0.38073,
+        "CARE": 0.3831,
+        "EXHAUSTION": 0.37713,
+        "CONFLICT": 0.38463,
+        "FEAR_SEEK_TRANS": 0.38077
+      }
+    },
+    "deriva": {
+      "kruskal_stat": 164.4369,
+      "p_value": 0.0,
+      "significant": true,
+      "group_means": {
+        "BASELINE": 0.77581,
+        "FEAR": 0.46299,
+        "CARE": 0.76742,
+        "EXHAUSTION": 0.40853,
+        "CONFLICT": 0.42395,
+        "FEAR_SEEK_TRANS": 0.46457
+      }
+    },
+    "entropia_traj": {
+      "kruskal_stat": 17.4649,
+      "p_value": 0.003697422,
+      "significant": true,
+      "group_means": {
+        "BASELINE": 1.50341,
+        "FEAR": 1.63403,
+        "CARE": 1.64742,
+        "EXHAUSTION": 1.69442,
+        "CONFLICT": 1.71371,
+        "FEAR_SEEK_TRANS": 1.7529
+      }
+    }
+  }
+}
