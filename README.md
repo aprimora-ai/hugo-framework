@@ -3,6 +3,7 @@
 **HUGO Series — Paper I**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/1178433785.svg)](https://doi.org/10.5281/zenodo.18947852)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.7.1-ee4c2c.svg)](https://pytorch.org/)
 [![TDA](https://img.shields.io/badge/TDA-Persistent%20Homology-purple.svg)](https://gudhi.inria.fr/)
@@ -26,7 +27,7 @@ The **Kappa Method** is the central mathematical instrument — persistent homol
 
 This repository accompanies the paper:
 
-> Ohio, D. (2026). *Homeostatic Temperature and Primary Emotions as Topological Signatures in Neural Information Flow*. HUGO Series Paper I. Zenodo.
+> Ohio, D. (2026). *Homeostatic Temperature and Primary Emotions as Topological Signatures in Neural Information Flow*. HUGO Series Paper I. Zenodo. https://doi.org/10.5281/zenodo.18947852
 
 ---
 
@@ -125,7 +126,8 @@ pip install -r requirements.txt
                Topological Signatures in Neural Information Flow},
   year      = {2026},
   publisher = {Zenodo},
-  url       = {https://github.com/aprimora-ai/hugo-framework}
+  doi       = {10.5281/zenodo.18947852},
+  url       = {https://doi.org/10.5281/zenodo.18947852}
 }
 ```
 
