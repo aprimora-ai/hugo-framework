@@ -1,23 +1,24 @@
-# Ambiente recomendado: Python 3.11+
+# HUGO Framework — Dependencies
+# David Ohio | odavidohio@gmail.com
+# Paper I: Homeostatic Temperature and Primary Emotions as Topological Signatures
 
 # Core
 numpy>=1.26.0
 scipy>=1.12.0
 
-# Rede neural — operações matriciais e atenção
-torch>=2.2.0
-
-# Homologia persistente O(n log n)
+# Persistent homology — O(n log n)
 ripser>=0.6.8
 persim>=0.3.7
-giotto-tda>=0.6.0
 
-# Visualização
+# Visualization
 matplotlib>=3.8.0
-plotly>=5.20.0
 seaborn>=0.13.0
 
-# Utilitários
+# Utilities
 tqdm>=4.66.0
 pandas>=2.2.0
-scikit-learn>=1.4.0
+
+# Optional (for Expansion experiments)
+# scikit-learn>=1.4.0
+# plotly>=5.20.0
+# giotto-tda>=0.6.0

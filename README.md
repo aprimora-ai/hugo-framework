@@ -1,21 +1,19 @@
 # HUGO — Homological Unified Gradient Ontology
 
-**HUGO Series — Paper I**
+**HUGO AGI Framework — Paper I**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/1178433785.svg)](https://doi.org/10.5281/zenodo.18947852)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.7.1-ee4c2c.svg)](https://pytorch.org/)
 [![TDA](https://img.shields.io/badge/TDA-Persistent%20Homology-purple.svg)](https://gudhi.inria.fr/)
 [![HUGO Series](https://img.shields.io/badge/HUGO%20Series-Paper%20I-blueviolet.svg)](https://github.com/aprimora-ai/hugo-framework)
 [![Kappa Method](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18883639-blue.svg)](https://doi.org/10.5281/zenodo.18883639)
 
 **Author:** David Ohio | odavidohio@gmail.com
-**Version:** 1.0.0 — March 2026
+**Version:** 1.0.1 — March 2026
 **Repository:** https://github.com/aprimora-ai/hugo-framework
 
-> *This repository accompanies Paper I of the HUGO series.*
-> Paper II — Language-Mediated Empathic Coupling (ECHO) | Paper III — Persistent Topological Memory
+> *This repository accompanies Paper I of the HUGO AGI Framework series.*
 
 ---
 
@@ -35,25 +33,23 @@ This repository accompanies the paper:
 
 ```
 HUGO/
-├── src/                        # Core source code
+├── src/
 │   ├── network/                # Gray-box structural attention network
+│   │   └── gray_box_network.py
 │   ├── homeostasis/            # Homeostatic field H(t)
-│   └── kappa/                  # Kappa monitor (persistent homology)
+│   │   └── homeostatic_field.py
+│   ├── kappa/                  # Kappa monitor (persistent homology via ripser)
+│   │   └── kappa_monitor.py
+│   └── echo/                   # [Paper II — in development]
 ├── experiments/
 │   └── exp_1_5/                # All three experimental series
-│       ├── run_experiment.py           # Experiment 1.5 (baseline)
-│       ├── run_expansion_2.py          # Expansion 2 (8 configurations)
-│       ├── run_expansion_3.py          # Expansion 3 (temporal trajectories)
-│       ├── generate_figures.py
-│       ├── generate_figures_expansion2.py
-│       └── generate_figures_expansion3.py
 ├── results/
-│   ├── exp_1_5/                # Results + figures Exp. 1.5
-│   ├── exp_expansion_2/        # Results + figures Expansion 2
-│   └── exp_expansion_3/        # Results + figures Expansion 3
+│   ├── exp_1_5/
+│   ├── exp_expansion_2/
+│   └── exp_expansion_3/
 ├── paper/                      # LaTeX source + compiled PDF
-├── data/
-├── notebooks/
+├── tests/                      # Unit tests
+│   └── test_hugo.py
 ├── LICENSE
 └── README.md
 ```
@@ -103,15 +99,19 @@ Softmax normalization suppresses affective intensity. HUGO monitors both S(t) (p
 
 ```
 Python 3.13
-PyTorch 2.7.1+cu118
-GUDHI 3.11
-Ripser 0.6.14
-Persim 0.3.8
+numpy, scipy
+ripser, persim (persistent homology)
+matplotlib, seaborn (visualization)
 ```
 
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+Run tests:
+```bash
+python tests/test_hugo.py
 ```
 
 ---
@@ -133,17 +133,22 @@ pip install -r requirements.txt
 
 ---
 
-## HUGO Series
+## HUGO AGI Framework — Module Series
 
-| Paper | Title | Status |
-|-------|-------|--------|
-| **Paper I** | Internal Affective Geometry (this repository) | ✅ Published |
-| Paper II | Language-Mediated Empathic Coupling (ECHO) | In development |
-| Paper III | Persistent Topological Memory | In development |
+| Module | Paper | Function | Status |
+|--------|-------|----------|--------|
+| **HUGO** | Paper I | Primary affective states via homeostatic field | ✅ Published |
+| **ECHO** | Paper II | Temporal resonance and empathic coupling | In development |
+| **REMIND** | Paper III | Episodic memory anchoring | In development |
+| **RHEO** | Paper IV | Temporal flow regulation and processing intensity | In development |
+| **ANIMA** | Paper V | Phenomenological animation of internal states | In development |
+| **SELF** | Paper VI | Reflexive self-modeling and identity dynamics | [Repository](https://github.com/aprimora-ai/self-framework) |
 
 ---
 
 ## Related Work
 
 - **Kappa Method:** https://doi.org/10.5281/zenodo.18883639
+- **Kappa-Radiante:** https://doi.org/10.5281/zenodo.18940478
+- **Kappa-LLM / HEIMDALL:** https://doi.org/10.5281/zenodo.18883790
 - **Kappa-FIN:** https://doi.org/10.5281/zenodo.18883585
