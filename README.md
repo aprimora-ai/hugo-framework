@@ -10,7 +10,7 @@
 [![Kappa Method](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18883639-blue.svg)](https://doi.org/10.5281/zenodo.18883639)
 
 **Author:** David Ohio | odavidohio@gmail.com
-**Version:** 1.0.1 — March 2026
+**Version:** 2.0.0 — March 2026
 **Repository:** https://github.com/aprimora-ai/hugo-framework
 
 > *This repository accompanies Paper I of the HUGO AGI Framework series.*
@@ -25,7 +25,21 @@ The **Kappa Method** is the central mathematical instrument — persistent homol
 
 This repository accompanies the paper:
 
-> Ohio, D. (2026). *Homeostatic Temperature and Primary Emotions as Topological Signatures in Neural Information Flow*. HUGO Series Paper I. Zenodo. https://doi.org/10.5281/zenodo.18947852
+> Ohio, D. (2026). *Homeostatic Temperature and Primary Emotions as Topological Signatures in Neural Information Flow*. HUGO Series Paper I v2. Zenodo. https://doi.org/10.5281/zenodo.18947852
+
+---
+
+## Version 2.0.0 — Changes from v1
+
+**HomeostaticField v3.0** — Three architectural changes fix the saturation instability found in v1:
+
+1. **Set-point model.** Each vector oscillates around its initial condition (H_i*), not the nominal center. Identity encoded in set points; experience in oscillations.
+2. **Orthogonal projections.** Each of 5 channels receives a fixed orthogonal projection (Gram-Schmidt), creating 5 independent feedback pathways H→τ→A→r→H.
+3. **Ensemble-calibrated decay.** Decay rate derived from perturbation statistics during 30-step burn-in (CALM analog). Not a hyperparameter — derived from data.
+
+**Paper I v2** — All experimental results re-run with v3.0 dynamics. Key change: convergence metric is NOT significant in v2 (genuine negative), whereas in v1 it was spuriously significant due to saturation.
+
+**33 tests passing** — Including set_points_preserved, ensemble_calibration_runs, differentiation_persists_200_steps.
 
 ---
 
@@ -36,19 +50,19 @@ HUGO/
 ├── src/
 │   ├── network/                # Gray-box structural attention network
 │   │   └── gray_box_network.py
-│   ├── homeostasis/            # Homeostatic field H(t)
+│   ├── homeostasis/            # Homeostatic field H(t) v3.0
 │   │   └── homeostatic_field.py
 │   ├── kappa/                  # Kappa monitor (persistent homology via ripser)
 │   │   └── kappa_monitor.py
-│   └── echo/                   # [Paper II — in development]
+│   └── echo/                   # [Paper II — see ECHO repository]
 ├── experiments/
 │   └── exp_1_5/                # All three experimental series
 ├── results/
 │   ├── exp_1_5/
 │   ├── exp_expansion_2/
 │   └── exp_expansion_3/
-├── paper/                      # LaTeX source + compiled PDF
-├── tests/                      # Unit tests
+├── paper/                      # Paper I v2 (Markdown + PDF)
+├── tests/                      # 33 unit tests
 │   └── test_hugo.py
 ├── LICENSE
 └── README.md
@@ -60,34 +74,44 @@ HUGO/
 
 ### Experiment 1.5 — Baseline
 5 homeostatic configurations, 50 trials, 40 steps.
-Result: p < 10⁻⁸ across six independent metrics (Kruskal-Wallis).
+Result: p = 0 across six independent metrics (Kruskal-Wallis H = 107–239).
+tau spread = 0.233, 4 distinct emotional labels.
 
 ### Expansion 2 — Continuous Gradient and Novel States
-8 configurations. FEAR as a continuous topological field (Spearman r = ±1.0).
+8 configurations. FEAR as a continuous topological field (Spearman r = ±1.0 on 4 metrics).
 States CARE, EXHAUSTION, CONFLICT, FEAR-SEEK-TRANSITION discriminated with p = 0.
 
 ### Expansion 3 — Temporal Trajectories
 6 configurations, 30 trials, 80 steps.
-Distinct trajectory topologies: attractors (BASELINE, EXHAUSTION), divergence (CONFLICT), exploration (CARE).
+4/6 trajectory metrics significant. Convergence and velocity ratio NOT significant (genuine negative — universal dissipative dynamic). Trajectory geometry carries emotional identity.
 
 ---
 
 ## Architecture
 
-**Homeostatic field H(t) ∈ ℝ⁵:**
+**Homeostatic field H(t) ∈ ℝ⁵ (v3.0):**
 
-| Vector | Biological Analog | decay_rate |
-|--------|-------------------|------------|
-| H1 — Energy Coherence | Glucose | 0.002 |
-| H2 — Structural Integrity | Physical integrity | 0.001 |
-| H3 — Load Balance | Osmotic pressure | 0.002 |
-| H4 — Temporal Consistency | Circadian cycle | 0.001 |
-| H5 — Representational Stability | Internal temperature | 0.002 |
+| Vector | Biological Analog | Decay |
+|--------|-------------------|-------|
+| H1 — Energy Coherence | Glucose | Ensemble-calibrated |
+| H2 — Structural Integrity | Physical integrity | Ensemble-calibrated |
+| H3 — Load Balance | Osmotic pressure | Ensemble-calibrated |
+| H4 — Temporal Consistency | Circadian cycle | Ensemble-calibrated |
+| H5 — Representational Stability | Internal temperature | Ensemble-calibrated |
+
+Calibrated decay rates (typical): 0.003–0.01 per channel, derived from burn-in statistics.
 
 **Homeostatic temperature:**
 ```
 τ(H(t)) = τ_base / (1 + 4·L(t))
 where L(t) = Σ wᵢ·δHᵢ(t)
+```
+
+**Set-point model:**
+```
+restoring_force_i = -d_i · (H_i(t) - H_i*)
+where H_i* = initial condition (set point)
+      d_i  = ensemble-calibrated decay rate
 ```
 
 **Pre-Softmax Affective Intensity Principle:**
@@ -138,17 +162,24 @@ python tests/test_hugo.py
 | Module | Paper | Function | Status |
 |--------|-------|----------|--------|
 | **HUGO** | Paper I | Primary affective states via homeostatic field | ✅ Published |
-| **ECHO** | Paper II | Temporal resonance and empathic coupling | In development |
-| **REMIND** | Paper III | Episodic memory anchoring | In development |
-| **RHEO** | Paper IV | Temporal flow regulation and processing intensity | In development |
-| **ANIMA** | Paper V | Phenomenological animation of internal states | In development |
-| **SELF** | Paper VI | Reflexive self-modeling and identity dynamics | [Repository](https://github.com/aprimora-ai/self-framework) |
+| **ECHO** | Paper II | Language-mediated empathic coupling | ✅ [Published](https://doi.org/10.5281/zenodo.19043115) |
+| **REMIND** | Paper III | Memory and structural accumulation | ✅ [Published](https://doi.org/10.5281/zenodo.19052403) |
+| RHEO | Paper IV | Temporal flow regulation | In development |
+| ANIMA | Paper V | Phenomenological animation | In development |
+| SELF | Paper VI | Reflexive self-modeling | In development |
 
 ---
 
 ## Related Work
 
-- **Kappa Method:** https://doi.org/10.5281/zenodo.18883639
-- **Kappa-Radiante:** https://doi.org/10.5281/zenodo.18940478
-- **Kappa-LLM / HEIMDALL:** https://doi.org/10.5281/zenodo.18883790
-- **Kappa-FIN:** https://doi.org/10.5281/zenodo.18883585
+- **ECHO Paper II:** [DOI: 10.5281/zenodo.19043115](https://doi.org/10.5281/zenodo.19043115)
+- **ECHO Repository:** [github.com/aprimora-ai/hugo-framework-echo](https://github.com/aprimora-ai/hugo-framework-echo)
+- **REMIND Paper III:** [DOI: 10.5281/zenodo.19052403](https://doi.org/10.5281/zenodo.19052403)
+- **REMIND Repository:** [github.com/aprimora-ai/hugo-framework-remind](https://github.com/aprimora-ai/hugo-framework-remind)
+- **Kappa Method:** [DOI: 10.5281/zenodo.18883639](https://doi.org/10.5281/zenodo.18883639)
+- **Kappa-Radiante:** [DOI: 10.5281/zenodo.18940478](https://doi.org/10.5281/zenodo.18940478)
+- **Kappa-LLM / HEIMDALL:** [DOI: 10.5281/zenodo.18883790](https://doi.org/10.5281/zenodo.18883790)
+
+---
+
+**David Ohio** | Independent Researcher | odavidohio@gmail.com
